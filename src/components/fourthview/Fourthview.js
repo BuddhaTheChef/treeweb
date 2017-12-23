@@ -4,7 +4,7 @@ import './Fourthview.css';
 class Fourthview extends Component {
   render() {
     return (
-      <div>
+      <div className="fourthcontainer">
         <h1>Fourth View</h1>
       </div>
     );

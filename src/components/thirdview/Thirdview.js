@@ -4,7 +4,7 @@ import './Thirdview.css';
 class Thirdview extends Component {
   render() {
     return (
-      <div>
+      <div className="thirdcontainer">
         <h1>Third View</h1>
       </div>
     );

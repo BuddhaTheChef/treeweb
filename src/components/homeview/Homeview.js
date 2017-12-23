@@ -4,7 +4,7 @@ import './Homeview.css';
 class Homeview extends Component {
   render() {
     return (
-      <div>
+      <div className="homecontainer">
         <h1>Home View</h1>
       </div>
     );
