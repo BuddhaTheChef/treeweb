@@ -1,7 +1,7 @@
 
 
 .container {
-  background-color:aquamarine;
+  background-color: mediumaquamarine;
   display: flex;
   width:100%;
   justify-content: space-around;
@@ -20,7 +20,7 @@
 
 .list-a-tag, .list-a-tag:visited, .list-a-tag:active {
   text-decoration: none;
-  color: black;
+  color: rgb(54,54,54);
 }
 
 .list-a-tag:hover {
