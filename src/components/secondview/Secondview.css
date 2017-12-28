@@ -1,6 +1,43 @@
+
 .secondcontainer{
-  background-color: rgb(167, 167, 167);
-  width: 100%;
+  background-color: rgb(60, 60, 60);
   height: 100vh;
-  padding-top: 30px;
+  display: -ms-flexbox;
+  position: fixed;
+  left: 0px;
+  display: table-cell;
+  padding: 20px;
+
+}
+
+.mapview {
+position: absolute;
+right: -40px!important;
+bottom: 0px;
+top: 0px;
+width: 85%!important;
+height: 100%;
+display: inherit;
+overflow: hidden!important;
+z-index: -1;
+}
+
+.search{
+  width: 94%;
+  height: 40px;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: -5px;
+
+
+}
+
+.input-title{
+    width: 300px;
+     color: rgb(128, 202, 172);
+     text-align: center;
+     margin-left: -10px;
+     font-size: 20px;
+     margin-top: 95px;
+
 }

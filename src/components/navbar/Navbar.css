@@ -21,6 +21,8 @@
 .list-a-tag, .list-a-tag:visited, .list-a-tag:active {
   text-decoration: none;
   color: rgb(54,54,54);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .list-a-tag:hover {
