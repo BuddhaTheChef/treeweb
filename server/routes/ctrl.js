@@ -1,13 +1,14 @@
 module.exports = {
 
   submitForm: (req, res) => {
-    console.log(req.body);
-    req.app
-    .get('db')
-    .submit_form(req.body)
-    .then(response => {console.log(response); res.json(response)})
-    .catch(err => console.log(err))
-  },
+
+   console.log(req.body);
+   req.app
+   .get('db')
+   .submit_form([req.body.projname, req.body.compfrom, req.body.numtree, req.body.location, req.body.price, req.body.email])
+   .then(response => {console.log(response); res.json(response)})
+   .catch(err => console.log(err))
+ },
 
   // createForSale: (req, res) => {
   //   console.log(req.body);
