@@ -33,36 +33,48 @@ class Thirdview extends Component {
 
     render() {
       return (
-      <div>
+      <div className="form-container">
+        <div className="container-form" >
         <h1>FORM PAGE HERE</h1>
         <form onSubmit={this.handleSubmit}>
           <label>
             Project Name:
+            <br/>
             <input type="text"  onChange={(event) => {this.state.projname = event.target.value}} />
           </label>
           <label>
             Company From:
+            <br/>
             <input type="text" onChange={(event) => {this.state.compfrom = event.target.value}} />
           </label>
           <label>
             Number of trees:
+            <br/>
             <input type="text" onChange={(event) => {this.state.numtree = event.target.value}} />
           </label>
           <label>
             Location:
+            <br/>
             <input type="text" onChange={(event) => {this.state.location = event.target.value}} />
           </label>
           <label>
             Price:
+            <br/>
             <input type="text" onChange={(event) => {this.state.price = event.target.value}} />
           </label>
           <label>
             Email:
+            <br/>
             <input type="text" onChange={(event) => {this.state.email = event.target.value}} />
           </label>
           <button type="submit" onClick={(event) => {this.handleSubmit(event)}}>Submit</button>
         </form>
+        </div>
+        <div className= "right-container">
+          <h1>Other image here</h1>
+        </div>
       </div>
+
       );
     }
 }

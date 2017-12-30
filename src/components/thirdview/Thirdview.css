@@ -4,3 +4,39 @@
   height: 100vh;
   padding-top: 30px;
 }
+
+.form-container{
+  width: 100%;
+  height: 92vh;
+  background-color: aquamarine;
+  display: flex;
+}
+
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 88.2vh;
+}
+
+.container-form{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 92vh;
+  background-color: grey;
+}
+
+.right-container{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: ;
+  height: 92vh;
+  background-color: black;
+}
