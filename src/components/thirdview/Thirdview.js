@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Thirdview.css';
 import axios from 'axios';
+import logo from './chelsea-bock-3073.jpg';
 
 class Thirdview extends Component {
   constructor(props) {
@@ -72,6 +73,7 @@ class Thirdview extends Component {
         </div>
         <div className= "right-container">
           <h1>Other image here</h1>
+          <img className="logo-tree" src={logo} alt={"logo"}/>
         </div>
       </div>
 
