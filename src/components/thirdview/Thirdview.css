@@ -13,25 +13,25 @@
 }
 
 form{
+
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
-  height: 88.2vh;
+  height: 73.2vh;
+  margin-left:14%;
 }
 
 .container-form{
-  width: 50%;
-  display: flex;
-  align-items: center;
+  width: 30%;
+
   justify-content: space-around;
   height: 92vh;
-  background-color: grey;
+  background-color: rgb(60, 60, 60);
 }
 
 .right-container{
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -39,4 +39,30 @@ form{
   justify-content: ;
   height: 92vh;
   background-color: black;
+}
+
+label {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(128, 202, 172);
+}
+
+.form-title{
+  margin-top: 30px;
+  color: rgb(128, 202, 172);
+}
+
+.form-inputs{
+  margin-top:  20px;
+  width: 70%;
+  height: 30px;
+}
+
+.form-button{
+  width: 71%;
+  margin-top:  50px;
+  height: 40px;
+  margin-bottom:  0px;
+  background-color: rgb(128, 202, 172);
 }
