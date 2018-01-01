@@ -72,7 +72,6 @@ class Thirdview extends Component {
         </form>
         </div>
         <div className= "right-container">
-          <h1>Other image here</h1>
           <img className="logo-tree" src={logo} alt={"logo"}/>
         </div>
       </div>
