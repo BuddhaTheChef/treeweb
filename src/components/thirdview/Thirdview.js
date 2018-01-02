@@ -36,7 +36,7 @@ class Thirdview extends Component {
       return (
       <div className="form-container">
         <div className="container-form" >
-        <h1 className="form-title">FORM PAGE HERE</h1>
+        <h1 className="form-title">PROJECT FORM</h1>
         <form onSubmit={this.handleSubmit}>
           <label>
             Project Name:
