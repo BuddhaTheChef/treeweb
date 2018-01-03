@@ -73,3 +73,33 @@ font-size: 20px;
 .logo-tree{
   width: 103%;
 }
+
+.inner-div-contian{
+  position: absolute;
+  left: 28%;
+  top: 12%;
+  height: 780px;
+  background-color: rgba(50, 50, 50, 0.7);
+  width: 1150px;
+  border-radius: 5px;
+  box-shadow: 0 10px 34px 10px rgba(0,0,0,.5);
+}
+
+.inner-div-header{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 30px;
+  align-items: center;
+  margin-top: 2%;
+  color: rgb(128, 202, 172);
+}
+
+.inner-div-content{
+  width: 95%;
+  height: 670px;
+  background-color: rgba(300, 300, 300, 0.9);
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-left: 2.5%;
+}
