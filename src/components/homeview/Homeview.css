@@ -1,6 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .homecontainer{
-  background-color: rgb(165, 165, 165);
+  background-color: rgb(60, 60, 60);
+}
+
+.tree-pic {
   width: 100%;
-  height: 100vh;
-  padding-top: 30px;
+  height: 70vh;
+}
+.top-content{
+  width: 100%;
+  height: 23vh;
+  background-color: rgb(60, 60, 60);
+  padding: 20px;
+  color: rgb(128, 202, 172);
+}
+
+.image-contain{
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tree-pic1{
+  width: 450px;
+  height: 450px;
+}
+.tree-pic2{
+  width: 450px;
+  height: 450px;
+}
+.tree-pic3{
+  width: 450px;
+  height: 450px;
 }
