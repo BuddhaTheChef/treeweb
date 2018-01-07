@@ -19,19 +19,35 @@
 }
 
 .top-content{
-  width: 100%;
-  height: 23vh;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 97%;
   background-color: rgb(60, 60, 60);
   padding: 20px;
   color: rgb(128, 202, 172);
 }
 
+.text-mid-content{
+  margin-top: 10px;
+  line-height: 1.75;
+}
+
 .image-contain{
+  margin-top: 15px;
   width: 100%;
   height: 750px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.pic-content{
+  width: 450px;
+}
+
+.sub-pic-contnent{
+
 }
 
 .tree-pic1{
