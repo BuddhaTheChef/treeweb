@@ -48,7 +48,8 @@ class Homeview extends Component {
         <div className="image-contain">
           <div className="pic-content">
             <img className="tree-pic1" src={pic1} alt={"logo"}/>
-            <p>I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <h3 className="sub-pic-contnent-header">BLAH BLAH</h3>
+            <p className="sub-pic-contnent">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
@@ -56,6 +57,7 @@ class Homeview extends Component {
           </div>
           <div className="pic-content">
         <img className="tree-pic2" src={pic2} alt={"logo"}/>
+        <h3 className="sub-pic-contnent-header">BLAH BLAH</h3>
         <p className="sub-pic-contnent">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -64,7 +66,8 @@ class Homeview extends Component {
         </div>
         <div className="pic-content">
         <img className="tree-pic3" src={pic3} alt={"logo"}/>
-        <p>I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        <h3 className="sub-pic-contnent-header">BLAH BLAH</h3>
+        <p className="sub-pic-contnent">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
           nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt

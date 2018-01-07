@@ -44,10 +44,22 @@
 
 .pic-content{
   width: 450px;
+  box-shadow: 0 6px 33px 0 rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.sub-pic-contnent-header{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 23px;
+  color: rgb(128, 202, 172);
 }
 
 .sub-pic-contnent{
-
+line-height: 1.55;
+color: rgb(128, 202, 172);
+padding: 0px 20px 20px 20px;
 }
 
 .tree-pic1{
