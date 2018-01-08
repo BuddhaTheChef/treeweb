@@ -4,6 +4,7 @@ import pic from './pic.jpg';
 import pic1 from './pic.jpg';
 import pic2 from './pic.jpg';
 import pic3 from './pic.jpg';
+import banner from './banner.png';
 
 class Homeview extends Component {
   render() {let {mode, src, height, width, style, ...props} = this.props;
@@ -29,8 +30,11 @@ class Homeview extends Component {
         {/* <img className="tree-pic" src={pic} alt={"logo"}/> */}
         <div {...props} style={{...defaults, ...style, ...important}}>
           <div className="header-content">
+            <img className="banner" src={banner} />
+            <div className="title-content">
             <h1>Tree Web App</h1>
             <h4>Helping you find the right trees the fastest</h4>
+            </div>
           </div>
         </div>
         <div className="top-content">
