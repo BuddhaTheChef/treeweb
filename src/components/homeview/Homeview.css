@@ -4,6 +4,7 @@
 }
 .homecontainer{
   background-color: rgb(60, 60, 60);
+  padding-bottom: 50px;
 }
 
 .header-content{
@@ -61,19 +62,26 @@
 .pic-content{
   width: 450px;
   background-color: rgb(68, 45, 34);
+  /* background-color: rgb(60, 60, 60); */
   box-shadow: 0 6px 33px 0 rgba(0, 0, 0, 0.4);
   margin-bottom: 30px;
   border-radius: 5px;
 }
 
+.pic-content:hover, .pic-content:focus{
+  outline: none;
+  transform: scale(1.04);
+}
+
 .sub-pic-contnent-header{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   font-size: 23px;
   color: rgb(128, 202, 172);
 }
 
 .sub-pic-contnent{
+  font-size: 16px!important;
 line-height: 1.55;
 color: rgb(128, 202, 172);
 padding: 0px 20px 20px 20px;
@@ -84,8 +92,11 @@ padding: 0px 20px 20px 20px;
   height: 450px;
 }
 .tree-pic2{
-  width: 450px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 350px;
   height: 450px;
+  background-color: whitesmoke;
 }
 .tree-pic3{
   width: 450px;

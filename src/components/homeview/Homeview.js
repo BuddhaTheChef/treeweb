@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Homeview.css';
 import pic from './pic.jpg';
-import pic1 from './pic.jpg';
-import pic2 from './pic.jpg';
+import pic1 from './tree-map.jpg';
+import pic2 from './syllabus.png';
 import pic3 from './pic.jpg';
 import banner from './banner.png';
 
@@ -52,29 +52,23 @@ class Homeview extends Component {
         <div className="image-contain">
           <div className="pic-content">
             <img className="tree-pic1" src={pic1} alt={"logo"}/>
-            <h3 className="sub-pic-contnent-header">BLAH BLAH</h3>
+            <h3 className="sub-pic-contnent-header">Find Trees on the Map!</h3>
             <p className="sub-pic-contnent">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             </p>
           </div>
           <div className="pic-content">
         <img className="tree-pic2" src={pic2} alt={"logo"}/>
-        <h3 className="sub-pic-contnent-header">BLAH BLAH</h3>
+        <h3 className="sub-pic-contnent-header">Create a Project!</h3>
         <p className="sub-pic-contnent">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         </p>
         </div>
         <div className="pic-content">
         <img className="tree-pic3" src={pic3} alt={"logo"}/>
-        <h3 className="sub-pic-contnent-header">BLAH BLAH</h3>
+        <h3 className="sub-pic-contnent-header">View 4</h3>
         <p className="sub-pic-contnent">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
         </p>
         </div>
         </div>
