@@ -51,7 +51,7 @@ class Secondview extends Component {
         onPlaceSelected={(place) => {
           console.log(place);
         }}
-        types={['(regions)']}
+        types={['(regions)']}z
       />
     </div>
 

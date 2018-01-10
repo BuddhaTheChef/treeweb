@@ -5,7 +5,7 @@ class Fourthview extends Component {
   render() {
     return (
       <div className="fourthcontainer">
-        <h1>Fourth View</h1>
+        <h1 className="title">Fourth View</h1>
       </div>
     );
   }
