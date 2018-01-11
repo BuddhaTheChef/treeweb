@@ -1,9 +1,30 @@
 .fourthcontainer{
+  display: flex;
   background-color: rgb(60,60,60);
   width: 100%;
   height: 100vh;
-  padding-top: 30px;
+  flex-direction: column;
 }
+
+.fourthview-content-top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  background-color: black;
+}
+
+
 .title{
   color: rgb(128, 202, 172);
+}
+
+.fourthview-content-bot{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  background-color: whitesmoke;
 }
