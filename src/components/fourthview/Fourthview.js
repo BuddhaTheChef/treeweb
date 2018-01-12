@@ -16,6 +16,9 @@ class Fourthview extends Component {
         <p>Still dont know what to do for the content yet</p>
       </div>
     </div>
+    <div className="right-container">
+      hello
+    </div>
     </div>
     );
   }
