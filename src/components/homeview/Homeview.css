@@ -39,7 +39,7 @@
   display: flex;
   width: 97%;
   background-color: rgb(60, 60, 60);
-  padding: 20px;
+  padding: 30px 20px 20px 20px;
   color: rgb(128, 202, 172);
 }
 
@@ -65,7 +65,7 @@
   /* background-color: rgb(60, 60, 60); */
   box-shadow: 0 6px 33px 0 rgba(0, 0, 0, 0.4);
   margin-bottom: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .pic-content:hover, .pic-content:focus{
@@ -88,14 +88,14 @@
 }
 
 .tree-pic1{
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   width: 450px;
   height: 450px;
 }
 .tree-pic2{
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   padding-left: 50px;
   padding-right: 50px;
   width: 350px;
@@ -103,10 +103,16 @@
   background-color: whitesmoke;
 }
 .tree-pic3{
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   width: 450px;
   height: 450px;
+}
+
+.homeview-bottom-content-header{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: rgb(128, 202, 172);
 }
 
 .example1-container{
@@ -116,17 +122,25 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 65px;
+  background-color: rgb(68, 45, 34);
+  padding: 25px 0px 25px 0px;
 }
 
 .example1-second-container{
   display: flex;
   flex-direction: column;
   width: 50%;
+  text-align: left;
+  line-height: 2.5;
+  color: rgb(128, 202, 172);
 }
 
 .example-pic1{
   height: 600px;
   width: 510px;
+  box-shadow: 0 6px 33px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 }
 
 
@@ -138,17 +152,24 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 65px;
+  padding: 25px 0px 25px 0px;
 }
 
 .example2-second-container{
   display: flex;
   flex-direction: column;
   width: 50%;
+  text-align: left;
+  line-height: 2.5;
+  color: rgb(128, 202, 172);
 }
 
 .example-pic2{
   height: 600px;
   width: 510px;
+  box-shadow: 0 6px 33px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 }
 
 
@@ -159,15 +180,23 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 65px;
+  background-color: rgb(68, 45, 34);
+  padding: 25px 0px 25px 0px;
 }
 
 .example3-second-container{
   display: flex;
   flex-direction: column;
   width: 50%;
+  text-align: left;
+  line-height: 2.5;
+  color: rgb(128, 202, 172);
 }
 
 .example-pic3{
   height: 600px;
   width: 510px;
+  box-shadow: 0 6px 33px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 }

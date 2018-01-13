@@ -80,13 +80,13 @@ class Homeview extends Component {
       </Link>
         </div>
         </div>
-        <div>
+        <div className="homeview-bottom-content-header">
           <h1>How it Works</h1>
         </div>
         <div className="example1-container">
             <img className="example-pic1" src={example1} alt={"logo"}/>
             <div className="example1-second-container">
-            <h2>Step 1</h2>
+            <h2>Step 1:</h2>
             <p className="example-pic1-content">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -97,7 +97,7 @@ class Homeview extends Component {
         </div>
         <div className="example2-container">
           <div className="example2-second-container">
-          <h2>Step 2</h2>
+          <h2>Step 2:</h2>
             <p className="example-pic2-content">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -110,7 +110,7 @@ class Homeview extends Component {
         <div className="example3-container">
             <img className="example-pic3" src={example1} alt={"logo"}/>
             <div className="example3-second-container">
-            <h2>Step 3</h2>
+            <h2>Step 3:</h2>
             <p className="example-pic3-content">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
