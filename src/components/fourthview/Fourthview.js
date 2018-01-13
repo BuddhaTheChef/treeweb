@@ -3,9 +3,17 @@ import './Fourthview.css';
 
 class Fourthview extends Component {
   render() {
-    return (<div className="main-container">
+    return (
+      <div className="main-container">
       <div className="left-container">
-        hello
+       <p>hello</p>
+       <p>hello</p>
+       <p>hello</p>
+       <p>hello</p>
+       <p>hello</p>
+       <p>hello</p>
+       <p>hello</p>
+       <p>hello</p>
       </div>
       <div className="fourthcontainer">
         <div className="fourthview-content-top">
@@ -13,11 +21,18 @@ class Fourthview extends Component {
       </div>
 
       <div className="fourthview-content-bot">
-        <p>Still dont know what to do for the content yet</p>
+        <h2>Still dont know what to do for the content yet</h2>
       </div>
     </div>
     <div className="right-container">
-      hello
+      <p>hello</p>
+      <p>hello</p>
+      <p>hello</p>
+      <p>hello</p>
+      <p>hello</p>
+      <p>hello</p>
+      <p>hello</p>
+      <p>hello</p>
     </div>
     </div>
     );

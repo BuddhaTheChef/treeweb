@@ -12,12 +12,26 @@
 }
 
 .left-container{
+  height: 100vh;
   width: 20%;
+  background-color: rgb(60,60,60);
+  color: rgb(128, 202, 172);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .right-container{
+  height: 100vh;
   width: 20%;
-  text-align: center;
+  background-color: rgb(128, 202, 172);
+  border-top: solid 1px rgba(60,60,60,0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
 .fourthview-content-top{
