@@ -13,9 +13,9 @@
 
 .fourth-left-container{
   height: 100vh;
-  width: 20%;
-  background-color: rgb(128, 202, 172);
-  color: rgb(60,60,60);
+  width: 25%;
+  background-color: rgb(68, 45, 34);
+  color: rgb(128, 202, 172);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -23,16 +23,6 @@
 
 }
 
-.fourth-right-container{
-  height: 100vh;
-  width: 20%;
-  background-color: rgb(128, 202, 172);
-  border-top: solid 1px rgba(60,60,60,0.1);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-}
 
 .fourthview-content-top{
   display: flex;
@@ -40,13 +30,14 @@
   justify-content: flex-start;
   flex-direction: column;
   width: 100%;
-  height: 50%;
+  height: 100%;
   background-color: rgb(60,60,60);
 }
 
 .fourth-input-container{
   display: flex;
-  margin-top: 35px;
+  margin-top: 25px;
+  margin-bottom: 15px;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -57,12 +48,14 @@
   height: 30px;
   width: 45%;
   font-size: 20px;
+  border-radius: 5px;
 }
 
 .fourthview-input2{
   height: 30px;
   width: 45%;
   font-size: 20px;
+  border-radius: 5px;
 }
 
 .fourthtitle{
@@ -70,12 +63,16 @@
   margin-top: 35px;
 }
 
-.fourthview-content-bot{
-  color: rgb(128, 202, 172);
+.fourthview-content-bottom{
+  font-size: 20px;
+  color: rgb(60,60,60);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 50%;
-  background-color: rgb(60,60,60);
+  width: 95%;
+  height: 100%;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: rgba(300, 300, 300, 0.9);
 }
