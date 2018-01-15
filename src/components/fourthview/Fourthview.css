@@ -14,8 +14,8 @@
 .fourth-left-container{
   height: 100vh;
   width: 20%;
-  background-color: rgb(60,60,60);
-  color: rgb(128, 202, 172);
+  background-color: rgb(128, 202, 172);
+  color: rgb(60,60,60);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -37,22 +37,45 @@
 .fourthview-content-top{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
   width: 100%;
   height: 50%;
   background-color: rgb(60,60,60);
 }
 
+.fourth-input-container{
+  display: flex;
+  margin-top: 35px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.fourthview-input1{
+  height: 30px;
+  width: 45%;
+  font-size: 20px;
+}
+
+.fourthview-input2{
+  height: 30px;
+  width: 45%;
+  font-size: 20px;
+}
 
 .fourthtitle{
   color: rgb(128, 202, 172);
+  margin-top: 35px;
 }
 
 .fourthview-content-bot{
+  color: rgb(128, 202, 172);
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 50%;
-  background-color: rgb(128, 202, 172);
+  background-color: rgb(60,60,60);
 }

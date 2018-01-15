@@ -17,7 +17,11 @@ class Fourthview extends Component {
       </div>
       <div className="fourthcontainer">
         <div className="fourthview-content-top">
-        <h1 className="fourthtitle">Fourth View</h1>
+        <h1 className="fourthtitle">Search Jobs</h1>
+        <div className="fourth-input-container">
+          <input className="fourthview-input1" placeholder="Search by Location"/>
+          <input className="fourthview-input2" placeholder="Search by Code #"/>
+        </div>
       </div>
 
       <div className="fourthview-content-bot">

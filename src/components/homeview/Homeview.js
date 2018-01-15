@@ -73,7 +73,7 @@ class Homeview extends Component {
         <div className="pic-content">
           <Link to="/fourthview"  style={{ textDecoration: 'none' }}>
         <img className="tree-pic3" src={pic3} alt={"logo"}/>
-        <h3 className="sub-pic-contnent-header">View 4</h3>
+        <h3 className="sub-pic-contnent-header">Bid and Search Projects</h3>
         <p className="sub-pic-contnent">I will add some contnent here tomorrow! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         </p>
