@@ -88,3 +88,10 @@
   border-radius: 5px;
   background-color: rgba(300, 300, 300, 0.9);
 }
+
+.dropdown-content{
+  width: 100%;
+  background-color: grey !important;
+  color: green;
+  border: solid black 1px;
+}
