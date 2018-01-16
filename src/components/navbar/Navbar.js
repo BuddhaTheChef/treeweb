@@ -7,9 +7,9 @@ class Navbar extends Component {
         <div className="container">
             <ul className="navbar-nav">
               <li><a className="list-a-tag" href="/">Home</a></li>
-              <li><a className="list-a-tag" href="/secondview">Map View</a></li>
+              <li><a className="list-a-tag" href="/secondview">Find Trees</a></li>
               <li><a className="list-a-tag" href="/thirdview">Create Project</a></li>
-              <li><a className="list-a-tag" href="/fourthview">Fourth View</a></li>
+              <li><a className="list-a-tag" href="/fourthview">Bid On Projects</a></li>
             </ul>
         </div>
     );
