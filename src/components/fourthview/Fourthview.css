@@ -14,7 +14,7 @@
 .fourth-left-container{
   height: 100vh;
   width: 25%;
-  background-color: rgb(128, 202, 172);;
+  background-color: rgb(128, 202, 172);
   color: rgb(60, 60, 60);
   display: flex;
   justify-content:flex-start;
@@ -30,7 +30,9 @@
   justify-content: center;
   width: 100%;
   height: 50px;
+  color: rgb(128, 202, 172);
   border-top: none;
+  background-color:rgb(107, 107, 107);
 }
 
 
