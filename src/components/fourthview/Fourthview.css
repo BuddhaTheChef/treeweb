@@ -14,13 +14,23 @@
 .fourth-left-container{
   height: 100vh;
   width: 25%;
-  background-color: rgb(68, 45, 34);
-  color: rgb(128, 202, 172);
+  background-color: rgb(128, 202, 172);;
+  color: rgb(60, 60, 60);
   display: flex;
-  justify-content: space-around;
+  justify-content:flex-start;
   align-items: center;
   flex-direction: column;
+  border-top: solid black 2px;
+}
 
+.fourth-left-inner-container{
+  border: solid black 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  border-top: none;
 }
 
 

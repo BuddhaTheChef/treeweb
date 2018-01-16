@@ -6,14 +6,30 @@ class Fourthview extends Component {
     return (
       <div className="fourth-main-container">
       <div className="fourth-left-container">
-       <p>hello</p>
-       <p>hello</p>
-       <p>hello</p>
-       <p>hello</p>
-       <p>hello</p>
-       <p>hello</p>
-       <p>hello</p>
-       <p>hello</p>
+        <div className="fourth-left-inner-container">
+          <p>dropdown content</p>
+        </div>
+        <div className="fourth-left-inner-container">
+          <p>dropdown content</p>
+        </div>
+        <div className="fourth-left-inner-container">
+            <p>dropdown content</p>
+          </div>
+        <div className="fourth-left-inner-container">
+              <p>dropdown content</p>
+            </div>
+             <div className="fourth-left-inner-container">
+                <p>dropdown content</p>
+              </div>
+              <div className="fourth-left-inner-container">
+                  <p>dropdown content</p>
+                </div>
+                <div className="fourth-left-inner-container">
+                    <p>dropdown content</p>
+                  </div>
+                   <div className="fourth-left-inner-container">
+                      <p>dropdown content</p>
+                    </div>
       </div>
       <div className="fourthcontainer">
         <div className="fourthview-content-top">
