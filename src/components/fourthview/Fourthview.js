@@ -76,6 +76,9 @@ class Fourthview extends Component {
           <div className="fourth-left-inner-container">
             <p>dropdown content</p>
           </div>
+          <div className="fourth-left-inner-container">
+            <p>dropdown content</p>
+          </div>
         </div>
         <div className="fourthcontainer">
           <div className="fourthview-content-top">
